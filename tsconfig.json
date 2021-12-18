@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "lib": ["es2015"],
+    "allowJs": true,
+    "checkJs": false,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "outDir": "dist/",
+    "strict": true,
+    "target": "ESNext"
+  },
+  "include": ["typings/**/*.d.ts", "node_modules/@*/types-*/*.d.ts"]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "small",
+  "version": "1.0.0",
+  "scripts": {
+    "gen:parser": "nearleyc src/small.grammar.ne -o src/small.grammar.js",
+    "transpile": "npm run gen:parser; ts-node src/runner.ts"
+  },
+  "author": "smith",
+  "license": "ISC",
+  "description": "Small Programming Language",
+  "dependencies": {
+    "@types/moo": "^0.5.5",
+    "@types/nearley": "^2.11.2",
+    "@types/ramda": "^0.27.60",
+    "moo": "^0.5.1",
+    "nearley": "^2.20.1",
+    "ramda": "^0.27.1",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.4"
+  }
+}
